@@ -1,16 +1,28 @@
 {
-  "name": "test-cli",
+  "name": "koa-service-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": false,
+  "description": "基于koa搭建的服务端脚手架",
+  "author": {
+    "name": "ysj",
+    "email": "yeshaojun5056@163.com"
+  },
   "bin": {
-    "test1": "./bin/index.js"
+    "koa-cli": "./bin/index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeshaojun/koa-service-cli"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "koa",
+    "service",
+    "router",
+    "mysql",
+    "koa模板",
+    "权限控制",
+    "异常处理"
+  ],
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
