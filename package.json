@@ -1,6 +1,6 @@
 {
   "name": "koa-service-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "基于koa搭建的服务端脚手架",
   "author": {
@@ -25,11 +25,14 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "download-git-repo": "^3.0.2",
     "inquirer": "^8.2.4",
     "ora": "^5.4.1",
+    "semver": "^7.3.7",
+    "url-join": "^4.0.1",
     "yargs": "^17.5.1"
   }
 }
